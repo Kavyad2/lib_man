@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+    <head>
+        <title>LOGIN</title>
+        <link rel="stylesheet" href="loginstyles.css">
+    </head>
+    <body background="libportalbg.jpg" style= "margin: auto;">
+        <div style="background-color: rgba(255, 228, 196, 0.619); margin-left: 20%;margin-right: 20%;" >
+        <h1>LOGIN</h1>
+        <form action="loginsuccess.html" method="post" style="margin-right: 20%;margin-left: 20%;margin-bottom: 20%;background-color:rgba(255, 228, 196, 0.619);">
+            <div class="imagecontainter">
+                <img src="loginimage2.png" alt="Avatar" class="avatar" height="20%" width="20%" style="margin-left:auto;margin-right:auto;display: block;">
+            </div>
+            <div class="container" style="background-color: rgba(255, 228, 196, 0.619);margin-left: 30px;margin-right:30px">
+                <label for="username"><b>USERNAME</b></label>
+                <input type="text" placeholder="Enter Username" name="admin" required>
+                <br>
+                <label for="password"><b>PASSWORD</b></label>
+                <input type="password" placeholder="Enter password" name="admin" required>
+                <br>
+                <button type="submit" style="margin-left: 30%;margin-right: 30%;"><a href="loginsuccess.html"> Login</a></button>
+                <br>
+                <label>
+                    <input type="checkbox" checked="checked" name="remember"> Remember me 
+                </label>
+            </div>
+            <div class="container" style="background-color: rgba(255, 228, 196, 0.619); margin-left: 30px; margin-right:30px;margin-bottom:30px;">
+            <button type="button" class="cancelbutton"><a href="index.html">Cancel</a></button>
+            <span class="password"><a href="#">Forgot password?</a></span>
+            </div>
+
+        </form>
+        </div>
+    </body>
+</html>
